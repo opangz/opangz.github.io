@@ -1,3 +1,9 @@
+# Owen Pang's Personal Website
+
+[![github pages](https://github.com/opangz/opangz.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/opangz/opangz.github.io/actions/workflows/gh-pages.yml)
+[![powered by Hugo](https://img.shields.io/badge/powered%20by-Hugo-blue)](https://gohugo.io/)
+[![theme Ananke](https://img.shields.io/badge/theme-Ananke-blue)](https://github.com/theNewDynamic/gohugo-theme-ananke)
+[![MIT License](https://img.shields.io/github/license/opangz/opangz.github.io?color=blue)](https://github.com/opangz/opangz.github.io/blob/main/LICENSE.md)
 
 ## Prerequisites (macOS)
 
