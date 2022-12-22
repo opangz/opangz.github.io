@@ -1,4 +1,3 @@
 baseURL = 'http://opangz.github.io/'
 languageCode = 'en-us'
 title = 'Owen Pang'
-theme = 'ananke'
