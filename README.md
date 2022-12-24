@@ -25,10 +25,11 @@ To locally build the site, run the following. The option `-D` includes drafts.
 hugo server -D
 ```
 
-## Publishing
+## Updating Theme
 
-Publishing creates the entire static site in `public`. This typically doesn't include drafts.
+To get the latest update of the Anatole theme, run
 
 ```
-hugo
+git submodule update --remote --merge
 ```
+

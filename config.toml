@@ -1,3 +1,51 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://opangz.github.io/"
+languageCode = "en-us"
+title = ""
+theme = "Anatole"
+
+[params]
+title = "Owen Pang"
+author = "Owen Pang"
+description = """
+Software Engineer I at Ocient
+Graduate Student at University of Michigan
+"""
+profilePicture = "images/profile.jpg"
+favicon = "favicons/"
+keywords = ["owen pang"]
+copyright = "2022 - {{ YEAR }} Owen Pang"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/owenpang/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "Email"
+url = "mailto:opang@umich.edu"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/opangz"
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Resume"
+  weight = 200
+  identifier = "resume"
+  url = "/resume/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 300
+  identifier = "contact"
+  url = "/contact/"
