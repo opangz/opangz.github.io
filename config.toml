@@ -14,6 +14,10 @@ profilePicture = "images/profile.jpg"
 favicon = "favicons/"
 keywords = ["owen pang"]
 copyright = "2022 - {{ YEAR }} Owen Pang"
+doNotLoadAnimations = true # default load animation is true
+contentratio = 0.7 # default content (right) ratio is 0.6
+mainSections = [] # default makes home page a blog post listing
+contactFormAction = "https://formspree.io/f/mayzwana" # contact form for opang@umich.edu endpoint
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -33,8 +37,8 @@ url = "https://github.com/opangz"
 [menu]
 
   [[menu.main]]
-  name = "About"
-  identifier = "about"
+  name = "Home"
+  identifier = "home"
   weight = 100
   url = "/"
 

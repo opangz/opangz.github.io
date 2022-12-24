@@ -33,3 +33,6 @@ To get the latest update of the Anatole theme, run
 git submodule update --remote --merge
 ```
 
+## Contact Form Submission
+
+Contact forms are sent to opang@umich.edu via [Formspree](https://formspree.io/) at the endpoint https://formspree.io/f/mayzwana.
